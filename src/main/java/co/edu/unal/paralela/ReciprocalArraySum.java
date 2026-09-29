@@ -114,7 +114,7 @@ public final class ReciprocalArraySum {
         public double getValue() {
             return this.value;
         }
-        /* @Override
+         @Override
         protected void compute() {
             if (endIndexExclusive - startIndexInclusive == numTasks) {
                 double parcial = 0;
@@ -142,7 +142,7 @@ public final class ReciprocalArraySum {
             for (ReciprocalArraySumTask task : tasks) {
                 value += task.getValue();
             }
-        } */
+        } 
        //Versión recursiva
        /* @Override 
        protected void compute() {
