@@ -147,7 +147,7 @@ public final class ReciprocalArraySum {
      */
     protected static double parArraySum(final double[] input) {
         assert input.length % 2 == 0;
-        return parManyTaskArraySum(input, 2);
+        return parManyTaskArraySum(input, Runtime.getRuntime().availableProcessors());
     }
 
     /**
