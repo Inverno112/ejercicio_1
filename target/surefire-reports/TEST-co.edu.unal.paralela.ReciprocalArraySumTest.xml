@@ -1,76 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="co.edu.unal.paralela.ReciprocalArraySumTest" time="110.25" tests="4" errors="0" skipped="0" failures="2">
+<testsuite name="co.edu.unal.paralela.ReciprocalArraySumTest" time="41.176" tests="4" errors="0" skipped="0" failures="1">
   <properties>
-    <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="21.0.11+10-1-24.04.2-Ubuntu"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/adiosa/Documentos/Estudio/Semestre7/Paralela/ejercicio/ejercicio_1"/>
-    <property name="java.vm.vendor" value="Ubuntu"/>
-    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="java.vm.version" value="25.0.4.1+1-LTS"/>
+    <property name="sun.boot.library.path" value="/usr/local/sdkman/candidates/java/25.0.4+1-ms/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/workspaces/ejercicio_1"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="path.separator" value=":"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="user.country" value="ES"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="stdin.encoding" value="UTF-8"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/adiosa/Documentos/Estudio/Semestre7/Paralela/ejercicio/ejercicio_1"/>
+    <property name="user.dir" value="/workspaces/ejercicio_1"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="java.runtime.version" value="21.0.11+10-1-24.04.2-Ubuntu"/>
+    <property name="java.runtime.version" value="25.0.4.1+1-LTS"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="stderr.encoding" value="UTF-8"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="guice_custom_class_loading" value="CHILD"/>
+    <property name="classworlds.conf" value="/usr/local/sdkman/candidates/maven/current/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="stdout.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
-    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/local/sdkman/candidates/maven/current/conf"/>
     <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="65.0"/>
+    <property name="java.class.version" value="69.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="6.17.0-35-generic"/>
-    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
-    <property name="user.home" value="/home/adiosa"/>
-    <property name="user.timezone" value="America/Bogota"/>
+    <property name="os.version" value="6.8.0-1064-azure"/>
+    <property name="library.jansi.path" value="/usr/local/sdkman/candidates/maven/current/lib/jansi-native"/>
+    <property name="user.home" value="/home/codespace"/>
+    <property name="user.timezone" value="Etc/UTC"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.specification.version" value="21"/>
-    <property name="user.name" value="adiosa"/>
-    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
-    <property name="java.vm.specification.version" value="21"/>
+    <property name="java.specification.version" value="25"/>
+    <property name="user.name" value="codespace"/>
+    <property name="java.class.path" value="/usr/local/sdkman/candidates/maven/current/boot/plexus-classworlds-2.11.0.jar"/>
+    <property name="java.vm.specification.version" value="25"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
-    <property name="java.home" value="/usr/lib/jvm/java-21-openjdk-amd64"/>
-    <property name="user.language" value="es"/>
+    <property name="java.home" value="/usr/local/sdkman/candidates/java/25.0.4+1-ms"/>
+    <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="21.0.11"/>
+    <property name="java.version" value="25.0.4.1"/>
     <property name="native.encoding" value="UTF-8"/>
-    <property name="java.vendor" value="Ubuntu"/>
-    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="maven.home" value="/usr/local/sdkman/candidates/maven/current"/>
     <property name="file.separator" value="/"/>
-    <property name="java.version.date" value="2026-04-21"/>
-    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-21"/>
+    <property name="java.version.date" value="2026-08-18"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Microsoft-14951822"/>
   </properties>
-  <testcase name="testParManyTaskTwoHundredMillion" classname="co.edu.unal.paralela.ReciprocalArraySumTest" time="60.219">
-    <failure message="Se esperaba que la implmentación de muchas tareas en paralelo pudiera ejecutarse  3,200000x veces más rápido, pero solo alcanzo a mejorar la rapidez (speedup) 1,523810x veces" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Se esperaba que la implmentación de muchas tareas en paralelo pudiera ejecutarse  3,200000x veces más rápido, pero solo alcanzo a mejorar la rapidez (speedup) 1,523810x veces
+  <testcase name="testParManyTaskTwoHundredMillion" classname="co.edu.unal.paralela.ReciprocalArraySumTest" time="20.911"/>
+  <testcase name="testParSimpleTwoMillion" classname="co.edu.unal.paralela.ReciprocalArraySumTest" time="0.228">
+    <failure message="Se esperaba que la implementación de dos tareas en paralelo pudiera ejecutarse  1.500000x veces más rápido, pero solo alcanzo a mejorar la rapidez (speedup) 1.000000x veces" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Se esperaba que la implementación de dos tareas en paralelo pudiera ejecutarse  1.500000x veces más rápido, pero solo alcanzo a mejorar la rapidez (speedup) 1.000000x veces
 	at junit.framework.Assert.fail(Assert.java:47)
 	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at co.edu.unal.paralela.ReciprocalArraySumTest.testParManyTaskTwoHundredMillion(ReciprocalArraySumTest.java:149)
+	at co.edu.unal.paralela.ReciprocalArraySumTest.testParSimpleTwoMillion(ReciprocalArraySumTest.java:114)
 </failure>
   </testcase>
-  <testcase name="testParSimpleTwoMillion" classname="co.edu.unal.paralela.ReciprocalArraySumTest" time="0.502"/>
-  <testcase name="testParManyTaskTwoMillion" classname="co.edu.unal.paralela.ReciprocalArraySumTest" time="0.497">
-    <failure message="Se esperaba que la implmentación de muchas tareas en paralelo pudiera ejecutarse 2,400000x veces más rápido, pero solo alcanzo a mejorar la rapidez (speedup) 1,333333x veces" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Se esperaba que la implmentación de muchas tareas en paralelo pudiera ejecutarse 2,400000x veces más rápido, pero solo alcanzo a mejorar la rapidez (speedup) 1,333333x veces
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at co.edu.unal.paralela.ReciprocalArraySumTest.testParManyTaskTwoMillion(ReciprocalArraySumTest.java:137)
-</failure>
-  </testcase>
-  <testcase name="testParSimpleTwoHundredMillion" classname="co.edu.unal.paralela.ReciprocalArraySumTest" time="49.032"/>
+  <testcase name="testParManyTaskTwoMillion" classname="co.edu.unal.paralela.ReciprocalArraySumTest" time="0.238"/>
+  <testcase name="testParSimpleTwoHundredMillion" classname="co.edu.unal.paralela.ReciprocalArraySumTest" time="19.799"/>
 </testsuite>
